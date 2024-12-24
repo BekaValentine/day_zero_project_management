@@ -72,7 +72,7 @@ The first of three parts culminates with the player stumbling across some eviden
 
 Hints at the conspiracy along the way can be things like destabilization of foreign or smaller economies, foreign governments collapsing from data leaks, big corporate data/tech thefts (that the player can be involved in), etc. Bigger anomalous events should come later in the story to hint at the test runs getting bigger and bigger.
 
-Perhaps we discover the existence of the backdoor (but not the details of it yet) by doing two or three jobs over the course of Act 1 that reveal a mysterious, inexplicable backdoor on some computer, and then we culminate with a trace of the backdoor to a hacker's secret lair and fine evidence that the backdoor is in hundreds or thousands of computers, and he's being paid to do it by some big mysterious outside party. To keep him quiet, they have him assassinated.
+Perhaps we discover the existence of the backdoor (but not the details of it yet) by doing two or three jobs over the course of Act 1 that reveal a mysterious, inexplicable backdoor on some computer, and then we culminate with a trace of the backdoor to a hacker's secret lair and find evidence that the backdoor is in hundreds or thousands of computers, and he's being paid to do it by some big mysterious outside party. To keep him quiet, they have him assassinated.
 
 NOTE: EVERYTHING ABOVE IS IN FLUX MOSTLY. I like the idea of the pentesting job, the sick loved one, etc. but I'm not sure how to fit that into the broader motivation. I don't know what can motivate the PC to do things in all branches. Namely:
 

@@ -129,7 +129,73 @@
     - Ethnicity
     - Name
   - [ ] Vertical Slice to build and test:
-    - [ ] 3D modeling and scene building - see modelling_tasks.md
+    - [x] Mission Description
+      - Pen testing job at a corporate office
+      - Goal is to get to a variety of different sensitive locations, such as
+        - Workers offices
+        - Workers computers
+        - Security offices
+        - Research labs
+        - Servers
+    - [x] Environment Description
+        - An brutalist-art-deco corporate HQ with offices, research labs, CEO office, server rooms, elevators, back entrances, basement, stair well
+          - Interior hallways are claustrophobic
+            - office area halls are detailed or taller
+            - maintenance are more plain
+          - Main lobby, sublobbies/lobby-hallways are grand and spacious
+        - City exterior
+        - Diner?
+    - [ ] Level Map
+      - [ ] Main building
+      - [ ] Back Alley
+      - [ ] Street
+      - [ ] Diner
+      - [ ] Random other buildings
+      - [ ] Separated Upper Walkway like the Embarcadero Center?
+        - Lower class stuff, incl. diner and utilities access, on the street level
+        - Main entrace on top level
+    - [x] Building Design Reference
+    - [x] Task Description
+        - One Goal: Steal hard drive from research server
+        - Components to include:
+          - Physical security
+            - RFID
+            - Keys and locks (on servers, exterior doors)
+            - Trashing
+            - Security Cameras and data cables
+            - Casing a joint
+          - Chaining skills - gaining access through multiple means with multiple steps to solve it
+            - Road Blocks and valid bypases
+              - BLOCK: Main Entrance Security
+                - ROUTE: Swiped RFID card gets you through main security gates => People outside the building, maybe in a diner?
+                - ROUTE: Back entrance
+                  - BLOCK: Security Cameras (see below)
+                - ROUTE: Wait for guard distraction
+                - ROUTE: Tailgate
+              - BLOCK: Don't know where server room is (see below)
+              - BLOCK: Knowledge of Which Server 
+                - ROUTE: Listening for conversations
+                - ROUTE: Hacking into a computer to get server info
+                - ROUTE: Trashing out back to find printouts
+              - BLOCK: Security Cameras
+                - ROUTE: Careful avoidance
+                - ROUTE: Cut camera power or data cable
+                - ROUTE: Camera monitor guard, knock unconscious in bathroom
+                  - BLOCK: Dont know where security back office is (see below)
+              - BLOCK: Server room door locks, server cabinet locks
+                - ROUTE: Stealing keys opens server cabinets and doors from sys admin
+                  - BLOCK: Don't know where sys admin's office is (see below)
+                - ROUTE: By pass lock
+              - BLOCK: Don't know where something is
+                - ROUTE: Explore
+                - ROUTE: Looking at building map
+    - [ ] 3D modeling and scene building - see also modelling_tasks.md
+      - [x] Blocked Out Street
+        - [x] Buildings
+        - [x] Streets
+        - [x] Alleys
+        - [x] Invisible Walls
+        - [x] Side walks -- narrow the buildings a bit to fit them
     - [ ] Behaviors / Actions / Interactions
     - [ ] UI
     - [ ] AI
@@ -270,6 +336,12 @@ Observation: Movement between paths is not entirely up to the player unless that
 Fraudulent or buggy high tech shit that fuck people over (predictive policing AI like mentioned before, but also things like shot spotter and other analogous things like facial recognition etc)
 
 CORP NOTE: If you stay corporate, then you don't just remain as a pentester/etc. Your loyalty and skill lets the company trust you more so you're increasingly brought into higher value jobs that involve providing discrete "solutions" for high paying clients involving recovery of their secrets, stealing things for them, etc. Classic cyberpunk corporate espionage type stuff.
+
+It could be very nice to have some indirect violence instead of guns. Some missions, for some orgs, could involve hacking-based assassinations, for instance. One especially interesting option is healthcare exec assassinations, b/c it could be revenge by the player for their family member.
+
+### Game Structure
+
+MAYBE set the employer's HQ on Treasure Island? Make the first mission, or all of the missions, line up with DX1's structure, roughly? Beat-for-beat sort of thing?
 
 ### First Mission Notes
 

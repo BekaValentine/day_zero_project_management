@@ -2,6 +2,9 @@
 
 major overlapping categories: direct opening of a lock or door, indirect by information acquisition + creation of key
 
+- social (MOST IMPORTANT)
+  - look like you belong - different parts of the building are restricted to different people. looking appropriate for an area is an invisibility cloak. for instance, a homeless person would stand out in an office space, an office worker would stand out in a utility space.
+  - do what's appropriate - even if you look like you belong in a space, not all activities are appropriate. for instance, a phone technician would need access to an office, but shouldn't be using the computer or looking through filing cabinets. many people belong in the lobby of a building, but no one should be jumping security gates.
 - physical
   - locks
     - bumping - LCK-UNS-CSH-OPN

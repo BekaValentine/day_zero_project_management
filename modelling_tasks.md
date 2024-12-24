@@ -4,6 +4,64 @@ These are the objects that will need to be modelled.
 
 There is some logic to some of this. Namely, we can determine what objects need to be modelled by thinking about places and activities and so forth, and thinking about what things are frequently there. You can also figure out things to model by looking at, e.g. Ikea, but that'll only give a subset of things that aren't especially equipment-like.
 
+For furniture specifically, there are probably a few levels of style for each kind of thing. For instance, consider a chair. Chairs can be very basic or very complex, it can be fancy or simple. It's often contextual to the kind of chair, and the designer aesthetic involved. Poorer people wouldn't own big fancy designer chairs, while rich people wouldn't own cheap folding chairs.
+
+Therefore each kind of furniture should probably have maybe 3 kinds of designs: 2 basic, and 1+ fancy. One basic design could be very modernist, another could be more traditional. Ikea should be a reference point.
+
+## Materials Samples
+
+- [ ] Metals
+  - [ ] Polished Chrome
+  - [ ] Brushed
+  - [ ] Grungy
+  - [ ] Rusted
+  - [ ] Painted
+- [ ] Leather
+- [ ] Fabric
+  - [ ] Plain Woven
+  - [ ] Velvet
+  - [ ] Patterns
+- [ ] Wood
+  - [ ] Chatoyant
+  - [ ] Plain
+  - [ ] Weathered/Old
+  - [ ] Plywood
+- [ ] Brick
+  - [ ] Clean
+  - [ ] Grungy
+  - [ ] Non-red-brown
+- [ ] Concrete
+  - [ ] Clean
+  - [ ] Grungy
+  - [ ] Pebbled
+- [ ] Asphalt
+- [ ] Stone
+  - [ ] Granite
+  - [ ] Travertine
+  - [ ] Basalt
+  - [ ] Plain White Marble
+  - [ ] Plain Black Marble
+  - [ ] Richly veined black and white marble
+- [ ] Plaster
+  - [ ] Clean
+  - [ ] Grungy
+- [ ] Tiles
+  - [ ] Big
+  - [ ] Medium
+  - [ ] Small
+- [ ] Carpet
+- [ ] Wall Papers
+  - [ ] Simple
+  - [ ] Ornate
+- [ ] Plastic
+  - [ ] Matte Rough Surface (like computer black)
+- [ ] Ceramics and Glass
+  - [ ] Ceramic
+  - [ ] Glass
+    - [ ] Frosted
+    - [ ] Stained
+    - [ ] Clear
+
 ## Task Tree
 
 - [ ] Characters
@@ -41,63 +99,81 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Windows (Hinged vs. Sliding)
       - [ ] Sub-types needed
   - [ ] Furniture (ish)
-    - [ ] Seating
-      - [ ] Sofa/Couch
-      - [ ] Chair
-      - [ ] Bench
-      - [ ] Low Stool
-      - [ ] Bar Stool
-      - [ ] Ottoman
-      - [ ] Beanbag
-    - [ ] Table
-      - [ ] Side
-      - [ ] Coffee
-      - [ ] Breakfast Nook
-      - [ ] Dining Room
-    - [ ] Desk
-    - [ ] Cabinets
-    - [ ] Bookshelves
-    - [ ] Hutches
-    - [ ] TV units
-    - [ ] File Cabinets
-    - [ ] Dressers
+    - [=] Seating
+      - [=] Sofa/Couch
+      - [=] Chair
+        - [=] Dining Room
+        - [=] Living Room
+        - [=] Office
+        - [=] Computer
+      - [=] Bench
+      - [=] Low Stool
+      - [=] Bar Stool
+      - [=] Ottoman
+      - [=] Beanbag
+    - [=] Table
+      - [=] Side
+        - [=] Drawers
+        - [=] No Drawers
+      - [=] Coffee
+      - [=] Breakfast Nook
+      - [=] Dining Room
+      - [=] Hallway
+    - [=] Desk
+    - [=] Cabinet
+    - [=] Bookcase
+    - [=] Hutches
+    - [=] TV units
+    - [=] Filing Cabinets
+    - [=] Dressers
     - [ ] Rugs
     - [ ] Wall art
     - [ ] Mirrors
-    - [ ] Lighting
-      - [ ] Floor Lamp
-      - [ ] Table Lamp
-      - [ ] Wall Lamp
-      - [ ] Ceiling Lamp
+    - [=] Lighting
+      - [=] Floor Lamp
+      - [=] Table Lamp
+      - [=] Wall Lamp
+      - [=] Ceiling Lamp
+    - [=] Fans
+      - [=] Table Fan
+      - [=] Ceiling Fan
     - [ ] Assorted plants and mushrooms
-    - [ ] Vases
-    - [ ] Clocks
+    - [=] Vases
     - [ ] Waste Paper Baskets
     - [ ] Books and Magazines
     - [ ] Notepads and Loose Notes and Filed Documents
     - [ ] Clothings and Shoes
   - [ ] Food-related stuff
-    - [ ] Dishes
-    - [ ] Stoves
-    - [ ] Refrigerators
-    - [ ] Microwaves
-    - [ ] Vending Machines
-    - [ ] Coffee Makers
-    - [ ] Sinks
+    - [=] Dishes
+    - [=] Stoves
+    - [=] Refrigerators
+    - [=] Microwaves
+    - [=] Vending Machines
+    - [=] Toasters
+    - [=] Coffee Makers
     - [ ] Food packaging
+  - [=] Room Specific Things
+    - [=] Sinks
+      - [=] Kitchen
+      - [=] Bathroom
+    - [=] Toilet
+    - [=] Urinal
+    - [=] Shower/Bathtub
   - [ ] Devices
-    - [ ] Desktop Computer
-    - [ ] Laptops
-    - [ ] VR Sets
-    - [ ] Server Racks
+    - [=] Clocks
+    - [=] Radio
+    - [=] Desktop Computer
+    - [=] Laptops
+    - [=] VR Sets
+    - [=] Server Racks
     - [ ] Network Switches
     - [ ] TVs
-    - [ ] Stereos
-    - [ ] Speakers
-    - [ ] Telephones
+    - [=] Stereos
+    - [=] Speakers
+    - [=] Telephones
     - [ ] Cellphones
     - [ ] Tablets
-    - [ ] Projectors
+    - [=] Projectors
     - [ ] Wired and Wireless Routers
     - [ ] Tools
       - [ ] 3d printers
@@ -106,6 +182,10 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] pick and place
       - [ ] wet printers
     - [ ] Cash registers / Stripe terminals
+    - [=] Cybernetics
+      - [=] Arms
+      - [=] Legs
+      - [=] Face/Head
   - [ ] Security
     - [ ] Keys and Locks
     - [ ] RFIDs
@@ -121,6 +201,14 @@ There is some logic to some of this. Namely, we can determine what objects need 
       - [ ] Ethernet Wiretaps w/ wireless transmission
       - [ ] Wifi Signal Detectors + Power Meters
     - [ ] Security Robots
+  - [ ] Public Spaces
+    - [ ] Traffic Lights
+    - [ ] Street Lights
+    - [ ] Sidewalk Lights
+    - [ ] Crosswalk Signs
+    - [ ] Street Signage
+    - [ ] Overhead Transit Power Lines
+    - [ ] Barriers of various sorts
   - [ ] Misc.
     - [ ] Storage boxes, crates, etc.
     - [ ] Barrels
@@ -130,3 +218,68 @@ There is some logic to some of this. Namely, we can determine what objects need 
     - [ ] Wallets and Purses
     - [ ] Ladders
     - [ ] Cold Gas Can / Fire Extinguisher?
+
+## Vertical Slice
+
+- [ ] Streets and Sidewalks
+  - [x] Road asphalt
+  - [x] Sidewalk concrete
+  - [x] Street lights
+  - [ ] Traffic Lights
+    - [ ] Mount Ring Texture
+    - [ ] Mount Pipe Texture
+    - [ ] Housing Texture
+    - [ ] Green Signal Texture
+    - [ ] Yellow Signal Texture
+    - [ ] Red Signal Texture
+  - [ ] Cross Walk Signs
+    - [ ] Mount Ring Texture
+    - [ ] Mount Pipe Texture
+    - [ ] Housing Texture
+    - [ ] Signal Texture
+  - [ ] Street Signs
+    - [ ] street names
+    - [ ] transit signs
+  - [ ] Overhead Transit Cables
+  - [ ] Barriers
+- [ ] Buildings
+  - [ ] Main Building
+  - [ ] Auxiliary Buildings
+    - [ ] South West Corner - 46x46x123
+    - [ ] South Facing Side
+      - [ ] 1 - 22x20x45
+      - [ ] 2 - 38x20x82
+      - [ ] 3 - 45x20x71
+      - [ ] 4 - 27x20x57
+      - [ ] 5 - 24x45x45
+    - [ ] South East Corner - 46x46x72
+    - [ ] West Facing Side
+      - [ ] 1 - 46x26x41
+      - [ ] 2 - 18x84x16
+      - [ ] 3 - 18x28x41
+    - [ ] East Facing Side
+      - [ ] 1 - 35x36x45
+      - [ ] 2 - 26x36x39
+      - [ ] 3 - 26x48x65
+      - [ ] 4 - 26x21x30
+      - [ ] 5 - 26x33x57
+    - [ ] South Adjacent Side
+      - [ ] 1 - 19x12x11
+      - [ ] 2 - 16x12x20
+      - [ ] 3 - 13x18x40
+      - [ ] 4 - 15x18x45
+      - [ ] 5 - 24x18x86
+      - [ ] 6 - 21x18x52
+      - [ ] 7 - 17x22x53
+    - [ ] West Adjacent Side
+      - [ ] 1 - 18x31x24
+      - [ ] 2 - 18x15x18
+      - [ ] 3 - 18x10x16
+      - [ ] 4 - 18x12x24
+      - [ ] 5 - 18x21x45
+      - [ ] 6 - 22x20x31
+    - [ ] East Adjacent Side
+      - [ ] 1 (Utility Annex) - 17x30x12
+      - [ ] 2 - 17x17x13
+      - [ ] 3 - 17x22x16
+      - [ ] 4 - 17x40x26
