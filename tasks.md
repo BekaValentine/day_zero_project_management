@@ -129,6 +129,7 @@
     - Ethnicity
     - Name
   - [ ] Vertical Slice to build and test:
+    - [ ] Main Menu Revamp - mimic Andromeda VR entry, and Johnny Mnemonic VR environment
     - [x] Mission Description
       - Pen testing job at a corporate office
       - Goal is to get to a variety of different sensitive locations, such as

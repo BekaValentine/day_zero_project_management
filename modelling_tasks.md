@@ -221,38 +221,86 @@ Therefore each kind of furniture should probably have maybe 3 kinds of designs: 
 
 ## Vertical Slice
 
-- [ ] Streets and Sidewalks
+### Notes
+
+- Sidewalk area is 140m
+- Sidewalk size is 2.5m
+- Usable building area is 135m
+- Buildings have structure for tiling:
+  - Horizontal tile size is 5m
+  - Floor height is arbitrary multiple of 1m? But must be accessible to scripting
+  - Three floor types: Ground, Middle, Roof
+  - All floors have 8 tile types:
+    - Corner (street facing)
+    - Middle (street facing)
+    - Left Edge (half street facing, non-street on left)
+    - Right Edge (half street facing, non-street on right)
+    - Back Corner (non-street-facing)
+    - Back Middle (non-street-facing)
+  - Ground Floors also have tiles:
+    - Door (street facing)
+    - Back Door (non-street-facing)
+  - Roof Floor's also have a Top tile type to fill in the room
+
+### Taskes
+
+- [x] Streets and Sidewalks
   - [x] Road asphalt
+    - [x] Base Model
+    - [ ] Cross Walks (!!!! TODO LATER)
+    - [ ] Tram Tracks (!!!! TODO LATER)
+    - [ ] Lane Marks (!!!! TODO LATER)
+    - [ ] Sewers (!!!! TODO LATER)
+    - [ ] Manholes (!!!! TODO LATER)
   - [x] Sidewalk concrete
   - [x] Street lights
-  - [ ] Traffic Lights
-    - [ ] Mount Ring Texture
-    - [ ] Mount Pipe Texture
-    - [ ] Housing Texture
-    - [ ] Green Signal Texture
-    - [ ] Yellow Signal Texture
-    - [ ] Red Signal Texture
-  - [ ] Cross Walk Signs
-    - [ ] Mount Ring Texture
-    - [ ] Mount Pipe Texture
-    - [ ] Housing Texture
-    - [ ] Signal Texture
-  - [ ] Street Signs
+  - [x] Traffic Lights
+  - [x] Cross Walk Signals
+  - [x] Street Signs (!!!! TODO LATER)
     - [ ] street names
+      - [ ] California St
+      - [ ] Sacramento St
+      - [ ] Montgomery St
+      - [ ] Sansome St
     - [ ] transit signs
-  - [ ] Overhead Transit Cables
-  - [ ] Barriers
+  - [x] Overhead Transit Cables (!!!! TODO LATER)
+  - [x] Barriers
+  - [x] Fire Hydrants (!!!! TODO LATER)
 - [ ] Buildings
   - [ ] Main Building
   - [ ] Auxiliary Buildings
-    - [ ] South West Corner - 46x46x123
+    - [x] South West Corner - Building 22
+      - [x] Ground
+        - [x] Corner
+        - [x] Middle
+        - [x] Door
+        - [x] Left Edge
+        - [x] Right Edge
+        - [x] Back Corner
+        - [x] Back Middle
+        - [x] Back Door
+      - [x] Middle
+        - [x] Corner
+        - [x] Middle
+        - [x] Left Edge
+        - [x] Right Edge
+        - [x] Back Corner
+        - [x] Back Middle
+      - [x] Roof
+        - [x] Corner
+        - [x] Middle
+        - [x] Left Edge
+        - [x] Right Edge
+        - [x] Back Corner
+        - [x] Back Middle
+        - [x] Top
     - [ ] South Facing Side
       - [ ] 1 - 22x20x45
       - [ ] 2 - 38x20x82
       - [ ] 3 - 45x20x71
       - [ ] 4 - 27x20x57
       - [ ] 5 - 24x45x45
-    - [ ] South East Corner - 46x46x72
+    - [x] South East Corner - Building 23
     - [ ] West Facing Side
       - [ ] 1 - 46x26x41
       - [ ] 2 - 18x84x16
